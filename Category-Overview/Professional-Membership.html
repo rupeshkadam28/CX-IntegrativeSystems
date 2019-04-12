@@ -1,501 +1,119 @@
-<style type="text/css">img {
-	margin-removed: 0;
-	padding-removed: 0;
-	border: none;
-	display: block;
-}
-#Title {
-	width: 665px;
-	display: inline-block;
-	font-weight: bold;
-	color: #20a9e0;
-	font-size: 40px;
-	line-height:auto;height-removed: 45px;
-	text-align: left;
-	margin-removed: 0;
-	padding-removed: 0;
-	float-removed: left;
-}
-#Title p {
-	margin-removed: 0;
-	padding-removed: 10px 0 0 0;
-	vertical-align: text-top;
-	margin-bottom: 0px;
-}
-#Title img {
-	display: inline;
-	float-removed: right;
-}
-.subHd-wrap {
-	margin-removed: 1em 0;
-	padding-removed: 0;
-}
-.subHd1 {
-	font-size: 18pt;
-	line-height:auto;height-removed: normal;
-	font-weight: bold;
-}
-.subHd1-orange {
-	color: #f05d2a;
-}
-.subHd1-green {
-	color: #a4bd18;
-}
-.subHd1-purple {
-	color: #a018bd;
-}
-.subHd1-gold {
-	color: #e3ca24;
-}
-.subHd2 {
-	color: #939598;
-	font-size: 12pt;
-	line-height:auto;height-removed: normal;/*font-weight: bold;*/
-}
-.subHd3 {
-	color: #939598;
-	font-size: 12pt;
-	line-height:auto;height-removed: normal;
-}
-#dataOneLinks {
-	width: 700px;
-	margin-removed: 0 0 0 0;
-	padding-removed: 0 63px 0 63px;
-	background-color: #ffffff;
-	text-align: center;
-}
-#designatorJoin {
-	display: list-item;
-	list-style-type: none;
-	margin-removed: 0 62px 0 0;
-	padding-removed: 0 0 0 0;
-	float-removed: left;
-	position: relative;
-	background-color: #FFF;
-	width: 150px;
-	height:auto;height-removed: 300px;
-	color: 949699;
-	/*height:auto;height-removed: 227px;*/
-	text-align: center;
-	vertical-align: text-top;
-}
-#designatorRenew {
-	display: list-item;
-	list-style-type: none;
-	margin-removed: 0 62px 0 0;
-	padding-removed: 0 0 0 0;
-	float-removed: left;
-	position: relative;
-	background-color: #FFF;
-	width: 150px;
-	height:auto;height-removed: 300px;
-	color: 949699;
-	/*height:auto;height-removed: 227px;*/
-	text-align: center;
-	vertical-align: text-top;
-}
-#designatorUpdate {
-	display: list-item;
-	list-style-type: none;
-	margin-removed: 0 0 0 0;
-	padding-removed: 0 0 0 0;
-	float-removed: left;
-	position: relative;
-	background-color: #FFF;
-	width: 150px;
-	height:auto;height-removed: 300px;
-	color: 949699;
-	/*height:auto;height-removed: 227px;*/
-	text-align: center;
-	vertical-align: text-top;
-}
-#designatorJoin a {
-	/*color:#f22424 !important;*/
-	font-family: "adelle", serif;
-	font-size: 12px;
-	font-weight: bold;
-}
-#designatorRenew a {
-	/*color:#f22424 !important;*/
-	font-family: "adelle", serif;
-	font-size: 12px;
-	font-weight: bold;
-}
-#designatorUpdate a {
-	/*color:#f22424 !important;*/
-	font-family: "adelle", serif;
-	font-size: 12px;
-	font-weight: bold;
-}
-#designatorJoin a:hover {
-	font-family: "adelle", serif;
-	font-size: 12px;
-	background: url(http://www.asme.org/wwwasmeorg/media/ASMEMedia/About%20ASME/membership/membership-join-sprite.jpg) 0 -300px;
-	font-weight: bold;
-	color: #0aafec !important;
-}
-#designatorRenew a:hover {
-	font-family: "adelle", serif;
-	font-size: 12px;
-	background: url(http://www.asme.org/wwwasmeorg/media/ASMEMedia/About%20ASME/membership/membership-renew-sprite.jpg) 0 -300px;
-	font-weight: bold;
-	color: #0aafec !important;
-}
-#designatorUpdate a:hover {
-	font-family: "adelle", serif;
-	font-size: 12px;
-	background: url(http://www.asme.org/wwwasmeorg/media/ASMEMedia/About%20ASME/membership/membership-update-sprite.jpg) 0 -300px;
-	font-weight: bold;
-	color: #0aafec !important;
-}
-#dataOneLinks #designatorOne p img {
-	padding-removed: 0px;
-	margin-top: 0px;
-	margin-right: auto;
-	margin-bottom: 0px;
-	margin-left: auto;
-}
-.textAltQuestionTitle {
-	font-family: "adelle", serif;
-	color: #f22424;
-	font-size: 18px;
-	width: 100%;
-	height:auto;height-removed: 20px;
-	background-color: #f0eee8;
-	margin-removed: 10px 0px 0px 0px;
-	padding-removed: 10px 10px 10px 10px;
-}
-.dataone {
-	border-top: 2px solid #ccc;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding-left: 20px;
-}
-#sectionContainer {
-	width: 700px;
-	position: relative;
-	margin-removed: 0;
-	padding-removed: 0;
-}
-.GI-Hero {
-	margin-removed: 25px 0 0 0;
-	display: inline-block;
-	float-removed: left;
-}
-.member {
-	margin-removed: 60px 0 0 0;
-	position: relative;
-}
-.volunteer {
-	margin-removed: 55px 0 0 0;
-	position: relative;
-}
-.share {
-	margin-removed: 55px 0 0 0;
-	position: relative;
-}
-.donation {
-	margin-removed: 55px 0 0 0;
-	position: relative;
-}
-.GI-DesignatorCopy {
-	padding-removed: 0 0 0 20px;
-	margin-removed: 0 0 0 0;
-	display: inline-block;
-	width: 465px;
-	float-removed: right;
-}
-.GI-DesignatorCopy h1 {
-	padding-removed: 0 0 0 0;
-	margin-removed: 0 0 0.5em 0;
-	text-transform: capitalize;
-	color: #00b0ed;
-	font-size: 16pt;
-	font-weight: bold;
-}
-.GI-DesignatorCopy p {
-	font-size: 10pt;
-	color: #77797b;
-	line-height:auto;height-removed: normal;
-}
-.NonTopicImageTwo {
-	margin-removed: 5px 0px 2px 15px;
-	float-removed: right;
-	border: 0;
-}
-.NonTopicImageCaptionTwo {
-	font-size: 11px;
-	color: #999;
-	float-removed: left;
-	margin-removed: 5px 0px 2px 5px;
-}
-ol.withroman {
-	list-style-type: lower-roman;
-	padding-removed: 0px 0px 0px 20px;
-}
-ol.withalpha {
-	list-style-type: lower-alpha;
-	padding-removed: 0px 0px 0px 20px;
-}
-.clear {
-	clear: both;
-	margin-removed: 0;
-	padding-removed: 0;
-	height:auto;height-removed: 1px;
-}
-#join.arrows_type {
-	width: 150px;
-	height:auto;height-removed: 300px;
-	background: url(http://www.asme.org/wwwasmeorg/media/ASMEMedia/About%20ASME/membership/membership-join-sprite.jpg) no-repeat;
-}
-#renew.arrows_type {
-	width: 150px;
-	height:auto;height-removed: 300px;
-	background: url(http://www.asme.org/wwwasmeorg/media/ASMEMedia/About%20ASME/membership/membership-renew-sprite.jpg) no-repeat;
-}
-#update.arrows_type {
-	width: 150px;
-	height:auto;height-removed: 300px;
-	background: url(http://www.asme.org/wwwasmeorg/media/ASMEMedia/About%20ASME/membership/membership-update-sprite.jpg) no-repeat;
-}
-.arrows_type {
-	display: block;
-}
-.arrows_type.current {
-	background-position: 0px -300px!important;
-	color: #0aafec;
-}
-.arrows_copy {
-	margin-removed: 0 0 0 0;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12pt;
-	font-weight: bold;
-	padding-removed: 0 0 0 0;
-	color: #949699;
-	text-align: center;
-	text-decoration: none;
-	line-height:auto;height-removed: 15pt;
-}
-.arrows_copy a:hover {
-	color: #0aafec;
-	text-decoration: underline;
-}
-.joinCpy {
-	display: block;
-	margin-removed: 0;
-	padding-removed: 0;
-	text-align: center;
-	width: 150px;
-	height:auto;height-removed: 300px;
-}
-.volCpy {
-	display: block;
-	margin-removed: 0;
-	padding-removed: 0;
-	text-align: center;
-	width: 150px;
-	height:auto;height-removed: 300px;
-}
-.shareCpy {
-	display: block;
-	margin-removed: 0;
-	padding-removed: 0;
-	text-align: center;
-	width: 150px;
-	height:auto;height-removed: 300px;
-}
-.learnMore {
-	margin-removed: 20px 0 0 0;
-	padding-removed: 0 0 0 0;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 9pt;
-	font-weight: bold;
-	color: #00acee;
-	text-align: center;
-	font-variant: small-caps;
-	text-decoration: none;
-}
-.fancy-font a {
-	color: #00b0ed;
-	text-decoration: none;
-}
-</style>
-<script type="text/javascript">
-$(document).ready(function(){
-	$('.arrows_type').click(function(){
-		var ban_id = $(this).attr('data-child');
-		$('.arrows_type').removeClass('current');
-		$(this).addClass('current');
-		$("#"+ban_id).addClass('current');
-	});
-});
-</script>
-<div class="module-full"><!--Designator Map-->
-<div id="dataOneLinks">
-<div id="designatorJoin">
-<div class="arrows_copy joinCpy" data-style-removed="padding-top:195px;"><a class="arrows_type current" data-child="one" href="javascript:void(0)" id="join">Join Online Now, or by Phone or Fax </a></div>
+<div class="gernral-page-template">
+    <section class="membership-content">
+        <div class="container">
+            <div class="row">
+                <!--Professional Membership left content start-->
+                <div class="col-md-12 col-lg-3 col-12 membership-left">
+                    <div class="general-left">
+                        <div class="content-box">
+                            <h6>For Your Information</h6>
+                            <div class="information-graphics">
+                                <a href="#">
+                                    <span class="information-image"><img
+                                            src="../../../assets/images/asmeJobBoardsymbol.png" alt=""
+                                            class="For Your Information"></span>
+                                    <p class="information-text">ASME <br /><strong>CAREER CENTER</strong></p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <h6>ASME Partner Benefits Programs</h6>
+                            <p><a href="">ASME Group Insurance Program</a></p>
+                            <p><a href="">Bank of America<sup>®</sup> Credit Card</a></p>
+                            <p><a href="">Membership Discounts, Offers and Merchandise</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--Professional Membership left content end-->
+                <!--Professional Membership right content start-->
+                <div class="col-md-12 col-lg-9 col-12">
+                    <section class="content">
+                        <div class="membership-links-content">
+                            <div class="row">
+                                <div class="col-4 col-md-4 membership-links">
+                                    <a href="javascript:void(0)">
+                                        <span class="membership-icon join-membership"></span>
+                                        Join Online,</br> or by Phone or Fax
+                                    </a>
+                                </div>
+                                <div class="col-4 col-md-4 membership-links">
+                                    <a href="javascript:void(0)">
+                                        <span class="membership-icon renew-membership"></span>
+                                        Renew Your</br> ASME Membership
+                                    </a>
+                                </div>
+                                <div class="col-4 col-md-4 membership-links">
+                                    <a href="javascript:void(0)">
+                                        <span class="membership-icon update-membership"></span>
+                                        Update your</br> ASME Membership
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <blockquote>
+                            "Joining ASME is the most important connection a current or future Mechanical Engineer can
+                            make."
+                        </blockquote>
+                        <div class="color-section">
+                            <div class="row">
+                                <div class="col-md-6 col-12"><a href="#" class="color-section-link">
+                                        <span class="section-link-icon"><img
+                                                src="../../../assets/icons/membership_memberships.svg" width="370px"
+                                                alt="" class="getty-image2"></span>
+                                        <p>Professional Membership
+                                            <abbr>Learn More</abbr></p>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 col-12"><a href="#" class="color-section-link">
+                                        <span class="section-link-icon"><img
+                                                src="../../../assets/icons/membership_magazines.svg" width="370px"
+                                                alt="" class="getty-image2"></span>
+                                        <p>Student Membership
+                                            <abbr>Learn More</abbr></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <article class="article-content1">
+                            <a href="#" class="btn btn-primary joinnow-btn">Join now</a>
+                            <p>ASME members have unlimited access to valuable information and resources, connections to
+                                the
+                                best and brightest engineers, and numerous opportunities to get involved and make a real
+                                difference.</p>
+                            <p>Professional and Student members also enjoy a host of exclusive career-enhancing
+                                benefits,
+                                including the award-winning <a href="#">Mechanical Engineering</a> magazine monthly; <a
+                                    href="#">Access Engineering</a>
+                                online reference tool; ASME SmartBrief daily email news summaries; discounts on ASME
+                                technical journals, books, articles, conferences, courses and more. NEW! <a
+                                    href="#">Student
+                                    Group Membership</a> for colleges & universities. </p>
+                            <p>Join ASME's community of engineers to learn new technologies, keep your skills up to
+                                date,
+                                explore solutions to technical problems and advance your career. <a href="#">Why Join
+                                    ASME?</a> Hear from
+                                Members how ASME has enriched their professional career. </p>
+                            <ul class="primary-list">
+                                <li>Download: <a href="#">Professional Application</a> | <a href="#">Student
+                                        Application</a>
+                                    in English</li>
+                                <li>Download: <a href="#">Professional Application</a> | <a href="#">Student
+                                        Application</a>
+                                    en Español</li>
+                                <li>Download: <a href="#">Professional Brochure</a> | <a href="#">Student Brochure</a>
+                                </li>
+                                <li>Download: <a href="#">20 Great Ways to Help ASME Grow Membership</a></li>
+                                <li>Call: 1-800-843-2763 (US & Canada), +1 646-616-3100 (Global)</li>
+                                <li>Fax: +1-973-882-1717</li>
+                            </ul>
+                        </article>
+
+                    </section>
+                    <img src="../../../assets/images/membership-stats_2b.jpg" alt="" class="getty-image1">
+                </div>
+                <!--Professional Membership right content end-->
+            </div>
+        </div>
+    </section>
 </div>
-
-<div id="designatorRenew">
-<div class="arrows_copy volCpy" data-style-removed="padding-top:195px;"><a class="arrows_type" data-child="two" href="javascript:void(0)" id="renew">Renew Your ASME Membership </a></div>
-</div>
-
-<div id="designatorUpdate">
-<div class="arrows_copy shareCpy" data-style-removed="padding-top:195px;"><a class="arrows_type" data-child="three" href="javascript:void(0)" id="update">Update your ASME Membership </a></div>
-</div>
-</div>
-&nbsp;
-
-<div class="black-line">&nbsp;</div>
-<!----Section Container---->
-
-<div id="sectionContainer"><!----Designator ~Join~ ---->
-<div class="dataOne" id="one"><!--Section Header-->
-<div data-style-removed="padding-top:10px; width: 700px; color:#636466;">
-<p class="subHd-wrap fancy-font"><span class="subHd1 subHd1-green">Joining ASME is the most important connection a current or future Mechanical Engineer can make.</span></p>
-</div>
-<!--END Section Header-->
-
-<div data-style-removed="width:370px; height:auto;height-removed:150px; background: url(http://www.asme.org/wwwasmeorg/media/ASMEMedia/About%20ASME/membership/join_think-arrow.jpg) top center; background-color:#ffffff; color:#a5bf2c; font-size:14px; font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height:auto;height-removed:16px; padding-removed:90px 0 0 330px; background-repeat:no-repeat; margin-bottom:30px;">
-<p align="center"><span class="fancy-font"><strong>Professional Membership</strong></span> <a href="~/about-asme/professional-membership/member-benefits">Learn More Now</a></p>
-
-<p align="center"><span class="fancy-font"><strong>Student Membership</strong></span> <a href="~/about-asme/professional-membership/member-benefits">Learn More Now</a></p>
-</div>
-
-<div align="center"><a href="https://shop.asme.org/ShoppingCart.cfm?ItemNumber=MMREG&amp;mode=add&amp;Referrer=https://shop.asme.org/Checkout.cfm" target="_blank"><img alt="" data-style-removed="display:inline !important;" height="" src="http://www.asme.org/wwwasmeorg/media/ASMEMedia/About%20ASME/membership/join-now-btn.jpg" width="" /></a></div>
-
-<p><span class="subHd3">ASME members have unlimited access to valuable information and resources, connections to the best and brightest engineers, and numerous opportunities to get involved and make a real difference. Professional and Student members also enjoy a host of exclusive career-enhancing benefits, including the award-winning <em><a href="https://www.asme.org/network/media/mechanical-engineering-magazine">Mechanical Engineering</a></em> magazine monthly; <a href="https://www.asme.org/About-ASME/Professional-Membership/Member-Benefits/Access-Engineering">AccessEngineering</a> online reference tool; <em>ASME SmartBrief</em> daily email news summaries; discounts on ASME technical journals, books, articles, conferences, courses and more. NEW! <a href="~/about-asme/professional-membership/join-asme/student-group-membership">Student Group Membership</a> for colleges &amp; universities. Join ASME&#39;s community of engineers to learn new technologies, keep your skills up to date, explore solutions to technical problems and advance your career. <a href="http://videos.asme.org/category/videos/membership"><strong>Why Join ASME?</strong></a> Hear from Members how ASME has enriched their professional career. </span></p>
-
-<ul class="disc">
-	<li><span class="subHd3">Download: <a href="https://www.asme.org/wwwasmeorg/media/ResourceFiles/AboutASME/Membership/Professional_Membership_Application.pdf" title="Download Professional Application">Professional Application</a> | <a href="https://www.asme.org/wwwasmeorg/media/ResourceFiles/AboutASME/Membership/Student_Membership_Application.pdf" title="Download Student Application">Student Application</a> in English</span></li>
-	<li><span class="subHd3">Download: <a href="https://www.asme.org/wwwasmeorg/media/ResourceFiles/AboutASME/Membership/Professionalappspanish.pdf" title="Download Professional Application">Professional Application</a> | <a href="https://www.asme.org/wwwasmeorg/media/ResourceFiles/AboutASME/Membership/Studentappspanish.pdf" title="Download Student Application">Student Application</a> en Español</span></li>
-	<li><span class="subHd3">Download: <a href="https://www.asme.org/wwwasmeorg/media/ResourceFiles/AboutASME/Membership/ASME_Professional_Membership_Brochure.pdf" title="Download ASME Professional Membership Brochure">Professional Brochure</a> | <a href="https://www.asme.org/wwwasmeorg/media/ResourceFiles/AboutASME/Membership/ASME_Student_Membership_Brochure.pdf" title="Download ASME Student Membership Brochure">Student Brochure</a></span></li>
-	<li><span class="subHd3">Download: <a href="~/wwwasmeorg/media/ResourceFiles/AboutASME/Membership/20-Great-Ways-to-Help-ASME-Grow-Membership.pdf" title="20 Great Ways">20 Great Ways to Help ASME Grow Membership</a></span></li>
-	<li><span class="subHd3">Call: 1-800-843-2763 (US &amp; Canada), +1 646-616-3100 (Global)</span></li>
-	<li><span class="subHd3">Fax: +1-973-882-1717</span></li>
-</ul>
-</div>
-<!----END Designator----><!----############################################################################################################################----><!----Designator  ~Volunteer~ ---->
-
-<div class="dataOne" id="two"><!--Section Header-->
-<div data-style-removed="padding-top:10px; width: 700px; color:#636466;">
-<p class="subHd-wrap fancy-font"><span class="subHd1 subHd1-green">Already a Member. Your membership in ASME is vital to your career.</span></p>
-</div>
-<!--END Section Header-->
-
-<div data-style-removed="width:700px; height:auto;height-removed:44px; background: url(http://www.asme.org/wwwasmeorg/media/ASMEMedia/About%20ASME/membership/renew-box-bg.jpg) top center; background-color:#a5bf2c; color:#FFFFFF; font-size:14px; font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height:auto;height-removed:16px; text-align:center; padding-top:30px; background-repeat:no-repeat; margin-bottom:30px;">Renewing online allows ASME to conserve valuable resources and to devote more of your membership dues to providing new and improved member benefits.</div>
-
-<table border="0" cellpadding="0" cellspacing="0" data-style-removed="margin-bottom:25px; " width="700">
-	<tbody>
-		<tr>
-			<td><img src="http://www.asme.org/wwwasmeorg/media/ASMEMedia/About%20ASME/membership/phone-icon.jpg" /></td>
-			<td data-style-removed="vertical-align:middle !important;" valign="middle"><span data-style-removed="font-size:14px; color:#636466; line-height:auto;height-removed:14px;">1-800-843-2763 (US &amp; Canada), +1 646-616-3100 (Global)</span></td>
-			<td><img src="http://www.asme.org/wwwasmeorg/media/ASMEMedia/About%20ASME/membership/mail-icon.jpg" /></td>
-			<td data-style-removed="vertical-align:middle !important;" valign="middle"><span data-style-removed="font-size:14px; color:#636466; line-height:auto;height-removed:14px;"><a href="mailto:CustomerCare@asme.org?subject=Renew My Membership">CustomerCare@asme.org</a></span></td>
-			<td><img src="http://www.asme.org/wwwasmeorg/media/ASMEMedia/About%20ASME/membership/fax-icon.jpg" /></td>
-			<td data-style-removed="vertical-align:middle !important;" valign="middle"><span data-style-removed="font-size:14px; color:#636466; line-height:auto;height-removed:14px;">+1-973-882-1717</span></td>
-		</tr>
-	</tbody>
-</table>
-
-<div align="center"><a href="https://shop.asme.org/DuesRenewal.cfm?Referrer=https://shop.asme.org/Checkout.cfm" target="_blank"><img alt="" data-style-removed="display:inline !important;" height="" src="http://www.asme.org/wwwasmeorg/media/ASMEMedia/About%20ASME/membership/renew-now-btn.jpg" width="" /></a></div>
-
-<p><span class="subHd3">There has never been a better time to be an ASME Member. The world is changing rapidly and Mechanical Engineers need to keep pace with the latest technology to stay relevant. ASME will keep you abreast of these changes and what they mean for you and your organization. Membership comes with a wealth of benefits, technical resources and professional development tools you need to stay up-to-date, including the award-winning <em><a href="~/network/media/mechanical-engineering-magazine">Mechanical Engineering</a></em> magazine monthly; <a href="~/About-ASME/Professional-Membership/Member-Benefits/Access-Engineering">AccessEngineering</a> online reference tool; and ASME SmartBrief daily email news summaries. It&rsquo;s easy to renew your ASME membership with these convenient options. </span></p>
-</div>
-<!----END Designator----><!----############################################################################################################################----><!----Designator  ~Update~ ---->
-
-<div class="dataOne" id="three">
-<div id="alfaLinks">
-<div data-style-removed="padding-top:10px; width: 700px; color:#636466;"><!--Section Header-->
-<div data-style-removed="padding-top:10px; width: 100%; color:#636466;">
-<p class="subHd-wrap fancy-font"><span class="subHd1 subHd1-green">Manage your account and make sure your contact information is up-to-date.</span> <span class="subHd2">Members can update or change their address, telephone number, email address and passwords. You can also create or update your email alias - @ASME.org Forwarding and specify your technical interests. Finally, display your professional pride with an ASME Membership Certificate. </span></p>
-</div>
-<!--END Section Header-->
-
-<div align="center"><a href="https://my.asme.org/home.cfm"><img alt="" data-style-removed="display:inline !important;" height="" src="http://www.asme.org/wwwasmeorg/media/ASMEMedia/About%20ASME/membership/update-now-btn.jpg" width="" /></a></div>
-</div>
-</div>
-</div>
-<!----END Designator----><!----############################################################################################################################----></div>
-<!--End sectionContainer-->
-
-<div class="black-line">&nbsp;</div>
-<img alt="" src="~/wwwasmeorg/media/ASMEMedia/About%20ASME/membership/membership-stats_2b.jpg" width="700" /></div>
-<!----############################################################################################################################----><script type="text/javascript">
-$(function(){		  
-			  var mainContainer=$('#alfaLinks');
-			  // $('.alfa').hide();    //hide all alfa
-			  var closeAllExistingOpen =function (){
-							  var $allOpen= $('.open');
-							  //close alfa
-							  $allOpen.removeClass('open');
-							  // $allOpen.find('.alfa').fadeOut(1000);
-							  //$allOpen.find('.answer').fadeIn(1000);
-			  }
-			  //click on answer
-			  // $('.answer').click(function(){
-							  // var $this=$(this);
-							  // $this.hide();
-							  // closeAllExistingOpen(); // close all open 
-							  // var item =$this.closest('.item');
-							  // item.addClass('open');
-							  // item.find('.alfa').fadeIn(1000);
-			  // });
-			  
-			  // click on close
-			  $('.close').click(function(){
-							  var $this=$(this);
-							  var item=$this.closest('.item');
-							  item.removeClass('open');
-							  // item.find('.alfa').fadeOut(1000);
-							  // item.find('.answer').fadeIn(1000);
-			  });
-			  
-			  //data one
-			   var $dataOneLinks = $('#dataOneLinks a'),
-					$dataOne = $('.dataOne');
-				$dataOne.hide();
-				// Show first link on load only
-				$('#one').show("slow");
-				//$dataOneLinks[0].click();
-				// Show first one only
-
-				$dataOneLinks.click(function() {
-					closeAllExistingOpen(); // close all open 
-					var $elm = $(this),
-						childId = $elm.data('child');
-					// Hide all (only one is visible, though)
-					$dataOne.hide("slow");
-					// Reset and set .current class on links
-					$dataOneLinks.removeClass('current');
-					$elm.addClass('current');
-					// Show related
-					$('#' + childId).show("slow");
-
-					return false;
-				});
-});
-</script>
-
-<div class="module">
-<h5>For Your Information</h5>
-
-<div><a href="http://jobboard.asme.org/" title="Career Center &amp; Mechanical Engineering Jobs"><img alt="" border="0" class="icon-left" src="http://www.asme.org/wwwasmeorg/media/ASMEMedia/About%20ASME/membership/asmeJobBoardsymbol.png" title="" width="60px" /></a></div>
-
-<div data-style-removed="float-removed:left; padding-removed: 8px 0px 2px 0px; margin-removed:0px 0px 10px 0px; font-size: 17px;"><a href="http://jobboard.asme.org/" title="Career Center &amp; Mechanical Engineering Jobs"><strong>ASME</strong> Job Board + Career Center</a></div>
-</div>
-
-<div class="black-line" data-style-removed="margin-top:15px;">&nbsp;</div>
-&nbsp;
-
-<h5>ASME Partner Benefits Programs</h5>
-
-<p><a href="~/About-ASME/Membership/ASME-Group-Insurance-Program" title="ASME Group Insurance Program">ASME Group Insurance Program</a> <a href="~/About-ASME/Membership/Bank-of-America-Credit-Card" title="Bank of America Credit Card">Bank of America<sup>&reg;</sup> Credit Card</a> <a href="~/About-ASME/Membership/Membership-Discounts--Perks-and-Privileges-from-Ca" title="Membership Discounts, Perks and Privileges">Membership Discounts, Offers and Merchandise</a></p>
-<style type="text/css">img.icon-left {
-	margin-right: 5px;
-	vertical-align: middle;
-float-removed:left;
-clear:right;
-	}
-</style>
-
